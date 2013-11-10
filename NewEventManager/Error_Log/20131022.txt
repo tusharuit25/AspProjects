@@ -1,0 +1,7 @@
+****************************************************************************
+ Date : 22-10-2013        Time : 12:58
+Log Source : GetEventData
+Error Message :- Object reference not set to an instance of an object.
+Error Stack Trace:-    at NewEventManager.index.GetEvents() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1781
+   at NewEventManager.index.GetEventData() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1763
+****************************************************************************

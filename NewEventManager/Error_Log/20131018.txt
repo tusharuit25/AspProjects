@@ -1,0 +1,9 @@
+****************************************************************************
+ Date : 18-10-2013        Time : 10:08
+Log Source : GetAttaindeeMessages
+Error Message :- Column 'fromname' does not belong to table Table.
+Error Stack Trace:-    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at NewEventManager.index.GetSelectedAttendeeMessageList(String attendeeid) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1380
+   at NewEventManager.index.GetAttaindeeMessages(String attendeeid) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1092
+****************************************************************************

@@ -1,0 +1,23 @@
+****************************************************************************
+ Date : 15-10-2013        Time : 17:03
+Log Source : CheckAutheticationOnline
+Error Message :- Column 'password' does not belong to table Table.
+Error Stack Trace:-    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at NewEventManager.index.GetUser(String username, String password) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1644
+   at NewEventManager.index.CheckAutheticationOnline(String username, String password) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 128
+****************************************************************************
+****************************************************************************
+ Date : 15-10-2013        Time : 17:14
+Log Source : GetEventData
+Error Message :- Object reference not set to an instance of an object.
+Error Stack Trace:-    at NewEventManager.index.GetEvents() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1780
+   at NewEventManager.index.GetEventData() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1762
+****************************************************************************
+****************************************************************************
+ Date : 15-10-2013        Time : 17:16
+Log Source : GetEventData
+Error Message :- Object reference not set to an instance of an object.
+Error Stack Trace:-    at NewEventManager.index.GetEvents() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1780
+   at NewEventManager.index.GetEventData() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1762
+****************************************************************************

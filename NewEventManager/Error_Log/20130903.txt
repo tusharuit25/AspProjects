@@ -1,0 +1,10 @@
+****************************************************************************
+ Date : 03-09-2013        Time : 16:00
+Log Source : Int32 InsertEventEvaluation(NewEventManager.EventEvaluation[])
+Error Message:-Object reference not set to an instance of an object./r/n Error Log Status:-   at NewEventManager.index.InsertEventEvaluation(EventEvaluation[] eveval) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 735
+****************************************************************************
+****************************************************************************
+ Date : 03-09-2013        Time : 16:16
+Log Source : Int32 InsertEventEvaluation(NewEventManager.EventEvaluation[])
+Error Message:-Object reference not set to an instance of an object./r/n Error Log Status:-   at NewEventManager.index.InsertEventEvaluation(EventEvaluation[] eveval) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 735
+****************************************************************************

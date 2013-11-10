@@ -1,0 +1,171 @@
+****************************************************************************
+ Date : 05-09-2013        Time : 19:59
+Log Source : AttendeeCheckIn
+Error Message :- Object reference not set to an instance of an object.
+Error Stack Trace:-    at NewEventManager.index.InsertAttendee(String attendeeid, String ucode, String ecode, String date) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 919
+   at NewEventManager.index.AttendeeCheckIn(String attendeeId, String ucode, String ecode, String date) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 891
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 12:17
+Log Source : GetSessionData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSessions(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1215
+   at NewEventManager.index.GetSessionData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1112
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 12:17
+Log Source : GetSpeakerData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSpeakers(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1805
+   at NewEventManager.index.GetSpeakerData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1652
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 12:17
+Log Source : Int32 InsertEventEvaluation(NewEventManager.EventEvaluation[])
+Error Message:-Object reference not set to an instance of an object./r/n Error Log Status:-   at NewEventManager.index.InsertEventEvaluation(EventEvaluation[] eveval) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 735
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 12:24
+Log Source : GetSessionData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSessions(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1215
+   at NewEventManager.index.GetSessionData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1112
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 12:24
+Log Source : GetSpeakerData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSpeakers(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1805
+   at NewEventManager.index.GetSpeakerData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1652
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 12:24
+Log Source : Int32 InsertEventEvaluation(NewEventManager.EventEvaluation[])
+Error Message:-Object reference not set to an instance of an object./r/n Error Log Status:-   at NewEventManager.index.InsertEventEvaluation(EventEvaluation[] eveval) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 735
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 12:37
+Log Source : GetSpeakerData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSpeakers(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1805
+   at NewEventManager.index.GetSpeakerData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1652
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 12:37
+Log Source : GetSessionData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSessions(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1215
+   at NewEventManager.index.GetSessionData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1112
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 12:43
+Log Source : GetSpeakerData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSpeakers(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1805
+   at NewEventManager.index.GetSpeakerData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1652
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 12:43
+Log Source : GetSessionData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSessions(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1215
+   at NewEventManager.index.GetSessionData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1112
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 12:51
+Log Source : GetSpeakerData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSpeakers(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1805
+   at NewEventManager.index.GetSpeakerData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1652
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 12:51
+Log Source : GetSessionData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSessions(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1215
+   at NewEventManager.index.GetSessionData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1112
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 16:06
+Log Source : GetSpeakerData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSpeakers(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1805
+   at NewEventManager.index.GetSpeakerData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1652
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 16:08
+Log Source : GetSpeakerData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSpeakers(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1805
+   at NewEventManager.index.GetSpeakerData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1652
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 16:08
+Log Source : GetSessionData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSessions(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1215
+   at NewEventManager.index.GetSessionData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1112
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 16:11
+Log Source : GetSpeakerData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSpeakers(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1805
+   at NewEventManager.index.GetSpeakerData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1652
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 16:11
+Log Source : GetSessionData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSessions(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1215
+   at NewEventManager.index.GetSessionData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1112
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 16:16
+Log Source : GetSpeakerData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSpeakers(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1805
+   at NewEventManager.index.GetSpeakerData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1652
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 16:16
+Log Source : GetSessionData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSessions(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1215
+   at NewEventManager.index.GetSessionData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1112
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 16:17
+Log Source : GetSessionData
+Error Message :- Cannot find table 0.
+Error Stack Trace:-    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at NewEventManager.index.GetSessions(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1215
+   at NewEventManager.index.GetSessionData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1112
+****************************************************************************
+****************************************************************************
+ Date : 05-09-2013        Time : 17:25
+Log Source : GetAttaindeeData
+Error Message :- Value cannot be null.
+Parameter name: String
+Error Stack Trace:-    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at NewEventManager.index.GetAttaindeeData(String eventCode) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1092
+****************************************************************************

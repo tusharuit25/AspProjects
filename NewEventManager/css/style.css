@@ -1,0 +1,83 @@
+body {
+    font-size:14px;
+	background:#f0f0f0;
+	color:#333;
+	padding:0px;
+	margin:0px
+}
+.flow_chart {
+	margin:10px 5px;
+	text-align:left;
+	color:#000000;
+	font-size:14px
+}
+.flow_chart2 {
+	margin:10px 0px;
+	text-align:left;
+	color:#000000
+}
+.img_fixed {
+	text-align:center
+}
+.mag_textbox {
+	padding:0px 0px 0px 0px;  
+}
+
+.left_chart {
+	margin-left:0px
+}
+.label_fix {
+	margin-bottom:3px;
+    
+    font-size:smaller;
+}
+.position_se {
+	margin-right:0px;
+	padding-right:0px
+}
+.set_action {
+	margin-left:0px;
+	text-align:center
+}
+.inside_title {
+	font-weight:bold;
+	margin-bottom:3px
+}
+.container {
+	width: 800px;
+	max-width: 100%;
+	background:#FFFFFF;
+}
+.container img {
+	max-width: 100%;
+	height: auto;
+}
+ @media screen {
+.container img {
+	width: auto; /* for ie 8 */
+}
+}
+#newyork {
+	background-image:url(../images/newyork.jpg);
+	background-size: cover;
+}
+#buenosaires {
+	background-image: url(../images/buenosaires.jpg);
+	background-size: cover;
+}
+#paris {
+	background-image: url(../images/paris.jpg);
+	background-size: cover;
+}
+#capetown {
+	background-image: url(../images/capetown.jpg);
+	background-size: cover;
+}
+#seoul {
+	background-image: url(../images/seoul.jpg);
+	background-size: cover;
+}
+#sydney {
+	background-image: url(../images/sydney.jpg);
+	background-size: cover;
+}

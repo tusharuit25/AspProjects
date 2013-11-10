@@ -1,0 +1,34 @@
+****************************************************************************
+ Date : 22-08-2013        Time : 10:12
+Log Source : GetConnection
+Error Message :- Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+Error Stack Trace:-    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NewEventManager.index.GetConnection() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2003
+****************************************************************************
+****************************************************************************
+ Date : 22-08-2013        Time : 10:12
+Log Source : GetEventQuestions
+Error Message :- Object reference not set to an instance of an object.
+Error Stack Trace:-    at NewEventManager.index.GetDataSetFromSP(String ProcedureName, Int32 EventCode) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2080
+   at NewEventManager.index.GetEventQuestion(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1185
+   at NewEventManager.index.GetEventQuestions(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1169
+****************************************************************************
+****************************************************************************
+ Date : 22-08-2013        Time : 10:12
+Log Source : GetNewsData
+Error Message :- Object reference not set to an instance of an object.
+Error Stack Trace:-    at NewEventManager.index.GetDataSetFromSP(String ProcedureName, Int32 EventCode) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2080
+   at NewEventManager.index.GetNews(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1849
+   at NewEventManager.index.GetNewsData(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1833
+****************************************************************************
+****************************************************************************
+ Date : 22-08-2013        Time : 10:12
+Log Source : GetSessionData
+Error Message :- Object reference not set to an instance of an object.
+Error Stack Trace:-    at NewEventManager.index.GetDataSetFromSP(String ProcedureName, Int32 EventCode) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2080
+   at NewEventManager.index.GetSessions(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1205
+   at NewEventManager.index.GetSessionData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1103
+****************************************************************************

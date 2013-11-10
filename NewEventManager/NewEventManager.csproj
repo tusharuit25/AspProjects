@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B80B87D-1D81-445A-9A07-7E41A277F03E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewEventManager</RootNamespace>
+    <AssemblyName>NewEventManager</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>E:\Users\geny\Downloads\poll-jquery-asp.netv1.0\DownloadableCSAsp\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>E:\Users\geny\Downloads\poll-jquery-asp.netv1.0\DownloadableCSAsp\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder">
+      <HintPath>E:\Users\geny\Downloads\poll-jquery-asp.netv1.0\DownloadableCSAsp\bin\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\images\ajax-loader.gif" />
+    <Content Include="css\images\icons-18-black.png" />
+    <Content Include="css\images\icons-18-white.png" />
+    <Content Include="css\images\icons-36-black.png" />
+    <Content Include="css\images\icons-36-white.png" />
+    <Content Include="css\jqm-docs.css" />
+    <Content Include="css\jquery.mobile-1.3.0.css" />
+    <Content Include="css\jquery.mobile-1.3.0.min.css" />
+    <Content Include="css\jquery.mobile-1.3.1.css" />
+    <Content Include="css\jquery.mobile.css" />
+    <Content Include="css\jquery.mobile.fixedToolbar.polyfill.css" />
+    <Content Include="css\jquery.mobile.simpledialog.min.css" />
+    <Content Include="css\jquery.tweet.css" />
+    <Content Include="css\nivo-zoom.css" />
+    <Content Include="exhiMap\2.png" />
+    <Content Include="imagesMap\E0011.png" />
+    <Content Include="imagesMap\E0012.png" />
+    <Content Include="imagesMap\E0013.png" />
+    <Content Include="imagesMap\E0014.png" />
+    <Content Include="imagesMap\E0015.png" />
+    <Content Include="images\acecqa-banner.jpg" />
+    <Content Include="images\footer-banner.png" />
+    <Content Include="images\green-bar.gif" />
+    <Content Include="images\HelpIcon.png" />
+    <Content Include="images\info.gif" />
+    <Content Include="images\messages.png" />
+    <Content Include="images\Progress.gif" />
+    <Content Include="images\red-bar.png" />
+    <Content Include="images\squareone-logo.png" />
+    <Content Include="images\staging_connections_768x518.png" />
+    <Content Include="images\survey_icon.jpg" />
+    <Content Include="images\Untitled-1.png" />
+    <Content Include="images\warn.gif" />
+    <Content Include="js\bubble.js" />
+    <Content Include="js\jquery-latest.js" />
+    <Content Include="js\jquery.mobile.simpledialog2.min.js" />
+    <Content Include="css\jquery.mobile.structure-1.3.0.css" />
+    <Content Include="css\jquery.mobile.structure-1.3.0.min.css" />
+    <Content Include="css\jquery.mobile.theme-1.3.0.css" />
+    <Content Include="css\jquery.mobile.theme-1.3.0.min.css" />
+    <Content Include="css\jquery.toastmessage.css" />
+    <Content Include="css\style.css" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\attendee.png" />
+    <Content Include="images\checking.png" />
+    <Content Include="images\close.gif" />
+    <Content Include="images\error.png" />
+    <Content Include="images\evaluation.png" />
+    <Content Include="images\event.png" />
+    <Content Include="images\exhibitor.png" />
+    <Content Include="images\icon-fb.png" />
+    <Content Include="images\icon-in.png" />
+    <Content Include="images\icon-twitter.png" />
+    <Content Include="images\icons-18-black.png" />
+    <Content Include="images\icons-18-white.png" />
+    <Content Include="images\icons-36-black.png" />
+    <Content Include="images\icons-36-white.png" />
+    <Content Include="images\icon_twitter%402x.png" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\map.png" />
+    <Content Include="images\my_profile.png" />
+    <Content Include="images\news.png" />
+    <Content Include="images\notification.png" />
+    <Content Include="images\personal_shedule.png" />
+    <Content Include="images\shedule.png" />
+    <Content Include="images\speaker.png" />
+    <Content Include="images\sponsor.png" />
+    <Content Include="images\success.png" />
+    <Content Include="images\touch-icon-ipad.png" />
+    <Content Include="images\touch-icon-ipad2.png" />
+    <Content Include="images\touch-icon-iphone.png" />
+    <Content Include="images\touch-icon-iphone4.png" />
+    <Content Include="images\twitter.png" />
+    <Content Include="images\warning.png" />
+    <Content Include="index.aspx" />
+    <Content Include="index.html" />
+    <Content Include="js\add2home.js" />
+    <Content Include="js\iscroll.js" />
+    <Content Include="js\jquery-1.7.1.min.js" />
+    <Content Include="js\jquery-1.8.2.min.js" />
+    <Content Include="js\jquery.mobile-1.0a3.min.js" />
+    <Content Include="js\jquery.mobile-1.3.0.min.js" />
+    <Content Include="js\jquery.mobile.fixedToolbar.polyfill.js" />
+    <Content Include="js\jquery.mobile.js" />
+    <Content Include="js\jquery.nivo.zoom.pack.js" />
+    <Content Include="js\jquery.toastmessage.js" />
+    <Content Include="js\jquery.tweet.js" />
+    <Content Include="js\widgets.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttaindeeDetails.cs" />
+    <Compile Include="AttendeeCheckIn.cs" />
+    <Compile Include="AttendeeFavorite.cs" />
+    <Compile Include="AttendeeMessage.cs" />
+    <Compile Include="ErrorLog.cs" />
+    <Compile Include="EventDetails.cs" />
+    <Compile Include="EventEvaluation.cs" />
+    <Compile Include="EventQuestionOptions.cs" />
+    <Compile Include="EventQuestions.cs" />
+    <Compile Include="ExhibitorFavorite.cs" />
+    <Compile Include="ExhibitorMessage.cs" />
+    <Compile Include="Exhibitors.cs" />
+    <Compile Include="FileOperations.cs" />
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewsDetails.cs" />
+    <Compile Include="NotificationMessages.cs" />
+    <Compile Include="Poll.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessionDetails.cs" />
+    <Compile Include="SessionFavorite.cs" />
+    <Compile Include="SpeakerDetails.cs" />
+    <Compile Include="SpeakerFavorite.cs" />
+    <Compile Include="SpeakerMessage.cs" />
+    <Compile Include="SpeakerToSession.cs" />
+    <Compile Include="SponsorDetails.cs" />
+    <Compile Include="SubscribedEvent.cs" />
+    <Compile Include="TwitterLink.cs" />
+    <Compile Include="UserDetails.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.appcache" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Code\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53468/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

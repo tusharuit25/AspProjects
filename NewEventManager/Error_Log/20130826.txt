@@ -1,0 +1,201 @@
+****************************************************************************
+ Date : 26-08-2013        Time : 14:18
+Log Source : GetConnection
+Error Message :- Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+Error Stack Trace:-    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NewEventManager.index.GetConnection() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2006
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 14:18
+Log Source : GetDataSet
+Error Message :- Fill: SelectCommand.Connection property has not been initialized.
+Error Stack Trace:-    at System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at NewEventManager.index.GetDataSet(String strMySql) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2034
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 14:18
+Log Source : GetSpeakerToSession
+Error Message :- Object reference not set to an instance of an object.
+Error Stack Trace:-    at NewEventManager.index.GetSpeakerToSessionList() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1396
+   at NewEventManager.index.GetSpeakerToSession() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1379
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 14:18
+Log Source : GetSponsorData
+Error Message :- Column 'phoneno' does not belong to table Table.
+Error Stack Trace:-    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at NewEventManager.index.GetSponsor(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1495
+   at NewEventManager.index.GetSponsorData(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1460
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 19:50
+Log Source : GetNewsData
+Error Message :- Column 'filename' does not belong to table Table.
+Error Stack Trace:-    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at NewEventManager.index.GetNews(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1870
+   at NewEventManager.index.GetNewsData(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1836
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 19:50
+Log Source : GetConnection
+Error Message :- Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=91498; handshake=2193; 
+Error Stack Trace:-    at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NewEventManager.index.GetConnection() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2011
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 19:50
+Log Source : GetConnection
+Error Message :- Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=91498; handshake=2193; 
+Error Stack Trace:-    at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NewEventManager.index.GetConnection() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2011
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 19:50
+Log Source : GetConnection
+Error Message :- Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=91498; handshake=2193; 
+Error Stack Trace:-    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NewEventManager.index.GetConnection() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2011
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 19:50
+Log Source : GetConnection
+Error Message :- Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=91498; handshake=2193; 
+Error Stack Trace:-    at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NewEventManager.index.GetConnection() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2011
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 19:50
+Log Source : GetDataSet
+Error Message :- Fill: SelectCommand.Connection property has not been initialized.
+Error Stack Trace:-    at System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at NewEventManager.index.GetDataSet(String strMySql) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2039
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 19:50
+Log Source : GetDataSet
+Error Message :- Fill: SelectCommand.Connection property has not been initialized.
+Error Stack Trace:-    at System.Data.Common.DbDataAdapter.GetConnection3(DbDataAdapter adapter, IDbCommand command, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at NewEventManager.index.GetDataSet(String strMySql) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2039
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 19:50
+Log Source : GetFavSpeaker
+Error Message :- Object reference not set to an instance of an object.
+Error Stack Trace:-    at NewEventManager.index.GetFavSpeakerList(String ucode) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1435
+   at NewEventManager.index.GetFavSpeaker(String ucode) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1418
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 19:50
+Log Source : GetSpeakerData
+Error Message :- Object reference not set to an instance of an object.
+Error Stack Trace:-    at NewEventManager.index.GetDataSetFromSP(String ProcedureName, Int32 EventCode) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2088
+   at NewEventManager.index.GetSpeakers(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1795
+   at NewEventManager.index.GetSpeakerData(Int32 attendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1643
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 19:50
+Log Source : GetExhibitorData
+Error Message :- Object reference not set to an instance of an object.
+Error Stack Trace:-    at NewEventManager.index.GetDataSetFromSP(String ProcedureName, Int32 EventCode) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2088
+   at NewEventManager.index.GetExhibitors(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1888
+   at NewEventManager.index.GetExhibitorData(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1623
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 19:59
+Log Source : GetNewsData
+Error Message :- Column 'fileextension' does not belong to table Table.
+Error Stack Trace:-    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at NewEventManager.index.GetNews(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1871
+   at NewEventManager.index.GetNewsData(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1836
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 20:00
+Log Source : GetConnection
+Error Message :- A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)
+Error Stack Trace:-    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NewEventManager.index.GetConnection() in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2011
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 20:01
+Log Source : GetNewsData
+Error Message :- Column 'fileextension' does not belong to table Table.
+Error Stack Trace:-    at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at NewEventManager.index.GetNews(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1871
+   at NewEventManager.index.GetNewsData(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1836
+****************************************************************************
+****************************************************************************
+ Date : 26-08-2013        Time : 20:01
+Log Source : GetExhibitorData
+Error Message :- Object reference not set to an instance of an object.
+Error Stack Trace:-    at NewEventManager.index.GetDataSetFromSP(String ProcedureName, Int32 EventCode) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 2088
+   at NewEventManager.index.GetExhibitors(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1888
+   at NewEventManager.index.GetExhibitorData(Int32 AttendeeId) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1623
+****************************************************************************

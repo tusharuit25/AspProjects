@@ -1,0 +1,30 @@
+****************************************************************************
+ Date : 21-09-2013        Time : 16:34
+Log Source : GetAttaindeeData
+Error Message :- Value cannot be null.
+Parameter name: String
+Error Stack Trace:-    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at NewEventManager.index.GetAttaindeeData(String eventCode) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1155
+****************************************************************************
+****************************************************************************
+ Date : 21-09-2013        Time : 16:36
+Log Source : GetAttaindeeData
+Error Message :- Value cannot be null.
+Parameter name: String
+Error Stack Trace:-    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at NewEventManager.index.GetAttaindeeData(String eventCode) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1155
+****************************************************************************
+****************************************************************************
+ Date : 21-09-2013        Time : 16:37
+Log Source : GetAttaindeeData
+Error Message :- Value cannot be null.
+Parameter name: String
+Error Stack Trace:-    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at NewEventManager.index.GetAttaindeeData(String eventCode) in f:\Australian Project\NewEventManager\NewEventManager\index.aspx.cs:line 1155
+****************************************************************************
